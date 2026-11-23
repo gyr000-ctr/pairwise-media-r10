@@ -3,6 +3,7 @@ import math
 import pytest
 
 import texfilter
+from texfilter import TexFilter
 
 def _raises(fn, exc=ValueError):
     try:
